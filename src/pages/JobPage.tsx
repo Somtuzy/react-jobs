@@ -2,7 +2,7 @@
 import axios from "axios"
 // import Spinner from '../components/Spinner'
 import { DeleteJobProp, Job } from "../types/job.type"
-import { Link, useParams, useLoaderData, useNavigate } from "react-router-dom"
+import { Link, useLoaderData, useNavigate } from "react-router-dom"
 import { FaMapMarker, FaArrowLeft } from "react-icons/fa"
 import { toast } from "react-toastify"
 

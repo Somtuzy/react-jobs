@@ -5,7 +5,7 @@ import { AddJobProp } from "../types/job.type"
 
 const AddJobPage = ({ addJobSubmit }: AddJobProp) => {
   const navigate = useNavigate()
-  const [isLoading, setIsLoading] = useState(true)
+  // const [isLoading, setIsLoading] = useState(true)
   const [title, setTitle] = useState("")
   const [type, setType] = useState("Full-Time")
   const [location, setLocation] = useState("")

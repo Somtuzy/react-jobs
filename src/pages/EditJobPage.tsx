@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useLoaderData, useNavigate, useParams } from "react-router-dom"
+import { useLoaderData, useNavigate } from "react-router-dom"
 import { EditJobProp, Job } from "../types/job.type"
 import { toast } from "react-toastify"
 
